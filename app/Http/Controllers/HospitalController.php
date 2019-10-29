@@ -55,7 +55,9 @@ class HospitalController extends Controller
     public function store(HospitalValidation $request)
     {
         //Validate with a specific http request :P
-        $validated = $request->validated();
+        $validated = $request->validate([
+            
+                    ]);
         $data = $request->all();
 
         $checkup = Checkup::create([
