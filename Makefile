@@ -9,3 +9,7 @@ conf-git-adely:
 conf-git-rebeca:
 	git config --global user.name "rebeca"
 	git config --global user.email "rebecacristina535@gmail.com"
+
+conf-git-robson:	
+	git config --global user.name "robson-gomes"
+	git config --global user.email "robson.gs2630@gmail"
