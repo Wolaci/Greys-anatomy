@@ -13,3 +13,7 @@ conf-git-rebeca:
 conf-git-robson:	
 	git config --global user.name "robson-gomes"
 	git config --global user.email "robson.gs2630@gmail"
+
+conf-git-tamires:	
+	git config --global user.name "siilvatamires"
+	git config --global user.email "tamiresmariia27@gmail.com"
